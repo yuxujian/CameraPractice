@@ -7,14 +7,43 @@
 //
 
 import UIKit
-
+import AVFoundation
 class ViewController: UIViewController {
-
+    
+    var catureSession = AVCaptureSession()
+    
+    @IBAction func cameraButton_TouchUpInside(_ sender: UIButton) {
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setupCaptureSession()
+        setupDevice()
+        setupInputputOutput()
+        setupPreviewLayer()
+        startRuningCatureSession()
     }
-
+    
+    func setupCaptureSession() {
+        catureSession.sessionPreset = AVCaptureSession.Preset.photo
+    }
+    
+    func setupDevice() {
+        
+    }
+    
+    func setupInputputOutput() {
+        
+    }
+    
+    func setupPreviewLayer() {
+        
+    }
+    
+    func startRuningCatureSession() {
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
