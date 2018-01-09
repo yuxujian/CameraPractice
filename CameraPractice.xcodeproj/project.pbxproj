@@ -12,6 +12,7 @@
 		604D782E2004832B00F2DF15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604D782C2004832B00F2DF15 /* Main.storyboard */; };
 		604D78302004832B00F2DF15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 604D782F2004832B00F2DF15 /* Assets.xcassets */; };
 		604D78332004832B00F2DF15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604D78312004832B00F2DF15 /* LaunchScreen.storyboard */; };
+		60FC8F682004A993003EC855 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FC8F672004A993003EC855 /* PreviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		604D782F2004832B00F2DF15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		604D78322004832B00F2DF15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		604D78342004832B00F2DF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60FC8F672004A993003EC855 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				604D78282004832A00F2DF15 /* AppDelegate.swift */,
 				604D782A2004832B00F2DF15 /* ViewController.swift */,
 				604D782C2004832B00F2DF15 /* Main.storyboard */,
+				60FC8F672004A993003EC855 /* PreviewViewController.swift */,
 				604D782F2004832B00F2DF15 /* Assets.xcassets */,
 				604D78312004832B00F2DF15 /* LaunchScreen.storyboard */,
 				604D78342004832B00F2DF15 /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				604D782B2004832B00F2DF15 /* ViewController.swift in Sources */,
 				604D78292004832A00F2DF15 /* AppDelegate.swift in Sources */,
+				60FC8F682004A993003EC855 /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
