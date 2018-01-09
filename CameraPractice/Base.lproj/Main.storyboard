@@ -43,6 +43,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="cameraButton" destination="gEt-yv-Xli" id="d8Z-8q-bYV"/>
                         <segue destination="Qbv-EV-V5O" kind="presentation" identifier="showPhoto_Segue" id="foe-hc-T3K"/>
                     </connections>
                 </viewController>
